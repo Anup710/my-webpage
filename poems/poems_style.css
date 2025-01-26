@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.reduced-line-spacing {
+    display: inline-block;
+    /* Makes the text block align as a single unit */
+    text-align: left;
+    /* Aligns the text within the block to the left */
+    line-height: 0.8;
+    /* Adjust the spacing between lines */
+}
