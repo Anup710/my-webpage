@@ -2,6 +2,13 @@ body {
     text-align: center;
 }
 
+h2, h3 {
+    font-family: 'Arial', sans-serif; /* Ensuring same font for all titles */
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
 .reduced-line-spacing {
     display: inline-block;
     /* Makes the text block align as a single unit */
@@ -10,3 +17,5 @@ body {
     line-height: 0.8;
     /* Adjust the spacing between lines */
 }
+
+
