@@ -1,21 +1,86 @@
+/* Minimalist Poetry Styles */
 body {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #222;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 0 20px;
+    margin: 0;
+}
+
+/* Poetry Container */
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 0; /* Ensures it starts from the top */
+}
+
+/* Headings */
+h1 {
+    font-family: 'Arial', serif;
+    font-size: 30px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
-h2, h3 {
-    font-family: 'Arial', sans-serif; /* Ensuring same font for all titles */
-    font-weight: bold;
+h2 {
+    font-family: 'Arial', serif;
+    font-size: 22px;
     text-align: center;
-    margin: 10px 0;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 30px;
 }
 
-.reduced-line-spacing {
-    display: inline-block;
-    /* Makes the text block align as a single unit */
-    text-align: left;
-    /* Aligns the text within the block to the left */
-    line-height: 0.8;
-    /* Adjust the spacing between lines */
+h3 {
+    font-family: 'Arial', serif;
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 30px;
 }
 
+/* Poetry Text */
 
+
+.poem {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    text-align: left; /* Aligns poem lines to a straight vertical line */
+    white-space: pre-wrap; /* Ensures line breaks are preserved */
+    margin: 0 auto 30px auto; /* Centers the block within the container */
+    display: inline-block; /* Ensures the content width only takes up what's needed */
+}
+
+/* Blockquote for poetic emphasis */
+blockquote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 4px solid #555;
+    color: #555;
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    color: #0073e6;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
