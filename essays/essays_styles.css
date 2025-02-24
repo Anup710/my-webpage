@@ -1,22 +1,28 @@
 /* Minimalist Essay Styles */
 body {
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Arial', sans-serif;
     font-size: 14px;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
     display: flex;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: flex-start; /* Centers vertically (optional) */
-    min-height: 100vh; /* Ensures full height */
-    padding: 0px 20px; /* Adds padding inside the body */
-    margin: 0; /* Removes inconsistent default margins */
+    justify-content: center;
+    /* Centers the content horizontally */
+    align-items: flex-start;
+    /* Centers vertically (optional) */
+    min-height: 100vh;
+    /* Ensures full height */
+    padding: 0px 20px;
+    /* Adds padding inside the body */
+    margin: 0;
+    /* Removes inconsistent default margins */
 }
 
 /* Centered and spaced-out container */
 .container {
     max-width: 700px;
-    width: 100%; /* Ensures responsiveness */
+    width: 100%;
+    /* Ensures responsiveness */
     background: white;
     padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -25,7 +31,9 @@ body {
 }
 
 /* Headings */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Times New Roman', serif;
     color: #222;
     margin-top: 20px;
@@ -42,7 +50,8 @@ h1 {
 p {
     text-align: justify;
     margin-bottom: 20px;
-    white-space: pre-line;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 /* Blockquote Styling */
